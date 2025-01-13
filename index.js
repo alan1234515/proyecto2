@@ -101,7 +101,9 @@ app.get("/", async (req, res) => {
           </style>
         </head>
         <body>
+          
           <h1>Tablas y sus Datos</h1>
+          <h2> Autor: Alan Lajones </h2>
           ${tableDataHTML}
         </body>
       </html>
